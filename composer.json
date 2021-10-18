@@ -1,0 +1,18 @@
+{
+    "name": "damien/cows-composer3",
+    "autoload": {
+        "psr-4": {
+            "Damien\\CowsComposer3\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Damien Diaz",
+            "email": "contact.damiendiaz@gmail.com"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "^6.2",
+        "gipetto/cowsay": "^1.1"
+    }
+}
